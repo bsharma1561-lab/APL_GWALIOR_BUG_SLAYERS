@@ -1,0 +1,6 @@
+{
+  "name": "AI Cricket Commentary Generator",
+  "description": "A professional AI-powered cricket commentary generator that produces ball-by-ball, context-aware broadcast-ready commentary with excitement tracking and multilingual output.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

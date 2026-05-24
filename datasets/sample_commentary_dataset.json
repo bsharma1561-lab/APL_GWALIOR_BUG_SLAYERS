@@ -1,0 +1,63 @@
+[
+  {
+    "input_event": {
+      "over": "19.2",
+      "batsman": "Virat Kohli",
+      "bowler": "Mitchell Starc",
+      "runs": 6,
+      "shot_type": "slog sweep",
+      "wicket": false,
+      "match_format": "T20",
+      "required_run_rate": 12.0,
+      "score": "165/4"
+    },
+    "completions": {
+      "professional": "Kohli launches that deep into the stands! A majestic slog sweep over midwicket from Virat Kohli, elevating the pressure on bowler Mitchell Starc. Excellent execution under immense tension.",
+      "ipl_excited": "OH MY WORD! VIRAT KOHLI HAS ABSOLUTELY SMASHED THAT FOR SIX! Mitchell Starc misses the yorker, Kohli gets underneath it, and boom! High, far, and handsome into the crowd!",
+      "hindi": "विराट कोहली का आसमान छूता हुआ छक्का! क्या बेहतरीन स्लॉग स्वीप खेला है! गेंद बाउंड्री के पार दर्शकों के बीच। स्टार्स की ये गेंद सीधे स्टेडियम के बाहर गई है।",
+      "hinglish": "Wow Virat Kohli ne kya behreen shot mara hai! Seedhe midwicket ke upar se clean six! Starc bilkul helpless dikh rahe hain yahan par.",
+      "radio": "And Kohli takes a step forward... swing of the arms... connect! It rises high into the evening skies, drifting quickly over deep midwicket, and it clears the ropes comfortably for a maximum. Sensational strike."
+    }
+  },
+  {
+    "input_event": {
+      "over": "18.5",
+      "batsman": "MS Dhoni",
+      "bowler": "Pat Cummins",
+      "runs": 4,
+      "shot_type": "helicopter shot",
+      "wicket": false,
+      "match_format": "T20",
+      "required_run_rate": 8.5,
+      "score": "182/6"
+    },
+    "completions": {
+      "professional": "Dhoni whips that from inside his crease. The trademark helicopter shot finds the gap through deep cow-corner for four. Brilliant placement from the veteran finisher.",
+      "ipl_excited": "IT IS THE MEGAPRODUCT! THE HELICOPTER HAS TAKEN OFF IN MUMBAI! Pat Cummins bowls full, Dhoni digs it out with those lightning wrists, and it races away to the boundary!",
+      "hindi": "धोनी का सिग्नेचर हेलीकॉप्टर शॉट! पैट कमिंस के यॉर्कर को खोद कर निकाला और गेंद गोली की रफ़्तार से चार रनों के लिए बाउंड्री से बाहर चली गई। अद्भुत नजारा!",
+      "hinglish": "Maahi maar raha hai! Cummins ka full-length ball aur Dhoni ka wahi purana jaadui helicopter shot. Four runs! Crowd bilkul pagal ho chuka hai.",
+      "radio": "Cummins runs in... bowls full on the stumps. Dhoni digs it out, rotates his wrists with immense power, whipping it through deep midwicket. The ball bounces once, twice, and crosses the boundary for four."
+    }
+  },
+  {
+    "input_event": {
+      "over": "12.4",
+      "batsman": "Rohit Sharma",
+      "bowler": "Adil Rashid",
+      "runs": 0,
+      "shot_type": "defense",
+      "wicket": true,
+      "wicket_type": "bowled",
+      "match_format": "T20",
+      "required_run_rate": 7.2,
+      "score": "98/3"
+    },
+    "completions": {
+      "professional": "Bowled him! Adil Rashid gets the big breakthrough. Sharma tried to play across the line, misses completely, and the ball rattles the top of off-stump. A crucial wicket at this stage.",
+      "ipl_excited": "GONE! HE'S CLEANED HIM UP! Adil Rashid has produced an absolute beauty of a googly! Rohit Sharma goes for the sweep, misses it completely, and the wickets are shattered!",
+      "hindi": "क्लीन बोल्ड! आदिल रशीद ने रोहित शर्मा को चलता किया। एक बेहतरीन गुगली, रोहित पूरी तरह से बीट हुए और गेंद सीधे गिल्लियां उड़ा गई। बहुत बड़ा झटका भारत के लिए।",
+      "hinglish": "Aur yahan Rohit Sharma clean bowled ho gaye! kya googly pheli hai Adil Rashid ne. Rohit samajh hi nahi paye aur stumps ukhad gaye.",
+      "radio": "Rashid pitches it on a length, spins back in sharply. Sharma plays all over it, looking to sweep, but the ball goes past the inside edge to light up the bails. The captain is walking back."
+    }
+  }
+]

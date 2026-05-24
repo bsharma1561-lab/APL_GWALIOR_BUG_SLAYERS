@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+  # AI Commentary Core Engine (Express + Vite + Gemini SDK)
+  commentary-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: cricket_commentary_ai
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - REDIS_URL=redis://redis-stream:6379
+      - DATABASE_URL=postgresql://cricket_db_user:cricket_db_pass@postgres-db:5432/cricket_commentary
+    depends_on:
+      - redis-stream
+      - postgres-db
+
+  # Redis for pub-sub streaming commentary cached lines
+  redis-stream:
+    image: redis:7-alpine
+    container_name: cricket_redis_cache
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # PostgreSQL for match scenario and historic events persistence
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: cricket_postgres_db
+    restart: always
+    environment:
+      - POSTGRES_USER=cricket_db_user
+      - POSTGRES_PASSWORD=cricket_db_pass
+      - POSTGRES_DB=cricket_commentary
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  redis_data:
+  db_data:
